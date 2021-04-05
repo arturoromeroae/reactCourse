@@ -16,11 +16,11 @@ console.log(owners);
 // }
 
 // opcion 2
-const getHeroe = (id) => heroes.find((superHeroe) => superHeroe.id === id);
+export const getHeroe = (id) => heroes.find((superHeroe) => superHeroe.id === id);
 
-console.log(getHeroe(1));
+// console.log(getHeroe(1));
 
 // find?, filter
-const getHeroesOwner = (owner) => heroes.filter((superHeroe) => superHeroe.owner === owner);
+export const getHeroesOwner = (owner) => heroes.filter((superHeroe) => superHeroe.owner === owner);
 
-console.log(getHeroesOwner('Marvel'));
+// console.log(getHeroesOwner('Marvel'));
