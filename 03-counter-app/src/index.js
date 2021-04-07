@@ -5,4 +5,6 @@ import './index.css';
 
 const divRoot = document.querySelector('#root');
 
-ReactDom.render(<PrimeraApp />, divRoot);
+// ReactDom.render(<PrimeraApp saludo = "Hola es mi primera app" />, divRoot);
+// ReactDom.render(<PrimeraApp saludo = {123} />, divRoot);
+ReactDom.render(<PrimeraApp saludo = "Hola Mundo" />, divRoot);
