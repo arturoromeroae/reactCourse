@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/components.hero.scss"],"names":[],"mappings":"AAEI;EACI,gBAAgB,EAAA","file":"components.hero.css","sourcesContent":[".c-hero {\r\n\r\n    &__title {\r\n        font-weight: 400;\r\n    }\r\n}"]}
